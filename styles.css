@@ -3,7 +3,6 @@ body {
     text-align: center;
     margin: 20px;
     background-color: #999;
-
 }
 
 .calculator {
@@ -13,9 +12,10 @@ body {
 }
 
 #result {
+    margin-left: 50px;
     text-align: right;
     border: none;
-    font-size: 31.1px;
+    font-size: 25px;
 }
 
 .display {
