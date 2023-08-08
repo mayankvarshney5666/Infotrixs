@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #999;
+
+}
+
+.calculator {
+    display: inline-block;
+    max-width: 400px;
+    background: white;
+}
+
+#result {
+    text-align: right;
+    border: none;
+    font-size: 31.1px;
+}
+
+.display {
+    text-align: left;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 35px;
+}
+
+.buttons>div {
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+}
+
+.buttons button {
+    width: 85px;
+    height: 85px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    font-size: 27px;
+    background-color: #f9f9f9;
+    color: rgb(24, 11, 11);
+    border: 0.5px solid #999;
+    border-radius: 55%;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #181313;
+    border-right: 1px solid black;
+    border-left: 1px solid#161414;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#equal {
+    background-color: rgba(72, 101, 175, 0.687);
+    color: rgb(33, 30, 30);
+}
+
+#equal:hover {
+    background-color: #567519;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.history {
+    font-size: larger;
+    margin: 0vh 2px 2px 1px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+.history ul li {
+    margin: 2px;
+    /* display: flex;
+    justify-content: space-evenly;
+    align-content: baseline; */
+}
